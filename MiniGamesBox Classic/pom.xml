@@ -29,7 +29,7 @@
 
     <artifactId>MiniGamesBox-Classic</artifactId>
     <properties>
-        <java.version>1.8</java.version>
+        <java.version>22</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
@@ -37,10 +37,6 @@
         <repository>
             <id>mojang-repo</id>
             <url>https://libraries.minecraft.net/</url>
-        </repository>
-        <repository>
-            <id>simonsators-repo</id>
-            <url>https://simonsator.de/repo/</url>
         </repository>
         <repository>
             <id>alessiodp-repo</id>
@@ -79,15 +75,9 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>com.github.ProtocolSupport</groupId>
-            <artifactId>ProtocolSupport</artifactId>
-            <version>master</version>
-            <scope>provided</scope>
-        </dependency>
-        <dependency>
             <groupId>com.github.cryptomorin</groupId>
             <artifactId>XSeries</artifactId>
-            <version>13.3.3</version>
+            <version>13.5.1</version>
             <scope>compile</scope>
             <optional>true</optional>
         </dependency>
@@ -96,24 +86,6 @@
             <artifactId>nashorn-core</artifactId>
             <version>15.4</version>
             <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>de.simonsator</groupId>
-            <artifactId>DevelopmentPAFSpigot</artifactId>
-            <version>1.0.67</version>
-            <scope>provided</scope>
-        </dependency>
-        <dependency>
-            <groupId>de.simonsator</groupId>
-            <artifactId>Party-and-Friends-MySQL-Edition-Spigot-API</artifactId>
-            <version>1.5.4-RELEASE</version>
-            <scope>provided</scope>
-        </dependency>
-        <dependency>
-            <groupId>de.simonsator</groupId>
-            <artifactId>Spigot-Party-API-For-RedisBungee</artifactId>
-            <version>1.0.3-SNAPSHOT</version>
-            <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>com.alessiodp.parties</groupId>
